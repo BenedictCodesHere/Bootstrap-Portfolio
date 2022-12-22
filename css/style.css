@@ -1,3 +1,13 @@
 .card-body {
-    background-color: rgb(44, 135, 214);
+    background-color: rgba(37, 163, 54, 0.6);
 }
+
+.jumbotron {
+    background-image: url("/images/avatar.png") !important;
+    height: 400px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(37, 163, 54, 0.8);
+}
+
