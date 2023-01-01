@@ -11,8 +11,8 @@
     <title>Bootstrap Portfolio</title>
   </head>
   <body>
-    <header class="container-fluid"><h1>Ben McElroy</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container-fluid"><h1 class="d-flex justify-content-center">BOOTSTRAP PORTFOLIO</h1>
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,10 @@
                   <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#projects" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                       Projects
                     </a>
+                    <!-- Dropdown Menu 
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Flexbox Portfolio</a>
                       <div class="dropdown-divider"></div>
@@ -38,6 +39,7 @@
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Project 5 (TBC)</a>
                     </div>
+                    -->
                     <li class="nav-item">
                         <a class="nav-link" href="#">Skills</a>
                       </li>
@@ -45,6 +47,7 @@
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Contact
                   </a>
+                  <!-- Dropdown Menu
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Email</a>
                     <div class="dropdown-divider"></div>
@@ -52,6 +55,7 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">LinkedIn</a>
                   </div>
+                -->
                 </li>
               </ul>
             </div>
@@ -59,55 +63,60 @@
           </header>
           <div class="jumbotron" id="jumbotron">
             <h1 class="display-4">Ben McElroy</h1>
-            <p class="lead">Frontend Web Developer</p>
-          <!--  <hr class="my-4">
-            <p>"To see the future, one is wading through the rivers of the past."</p> 
-            -->
+            <p class="lead">Front-End Web Developer</p>
           </div>
     
           <section class="container" id="projects">
-            <div class="row">
+            
                 <h2>Projects</h2>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card text-white bg-success mb-3">
-                            <img src="images/Portfolio-page.png" class="card-img-top" alt="...">
+                            <img src="images/Portfolio-page.png" class="card-img-top" alt="A screenshot of a portfolio project" id="portfolio-page">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <h5 class="card-title">Portfolio Page</h5>
+                              <p class="card-text">HTML, CSS</p>
+                              
                             </div>
                           </div>
+                    </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
                           <div class="card text-white bg-success mb-3">
-                            <img src="images/seo-page.png" class="card-img-top" alt="...">
+                            <img src="images/seo-page.png" class="card-img-top fixed-height" alt="A screenshot of a portfolio project" id="seo-page">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <h5 class="card-title">SEO Page</h5>
+                              <p class="card-text">HTML, CSS</p>
+                              
                             </div>
                           </div>
+                        </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                           <div class="card text-white bg-success mb-3">
-                            <img src="images/study-guide.png" class="card-img-top" alt="...">
+                            <img src="images/study-guide.png" class="card-img-top fixed-height" alt="A screenshot of a portfolio project" id="study-guide">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <h5 class="card-title">Study Guide</h5>
+                              <p class="card-text">HTML, CSS, Javascript</p>
+                              
                             </div>
                           </div>
+                      </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                           <div class="card text-white bg-success mb-3">
-                            <img src="images/02-run-buddy.jpg" class="card-img-top" alt="...">
+                            <img src="images/02-run-buddy.jpg" class="card-img-top fixed-height" alt="A screenshot of a portfolio project" id="project-4">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <h5 class="card-title">Project 4 (TBC)</h5>
+                              <p class="card-text">TBC</p>
+                              
                             </div>
                           </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                           <div class="card text-white bg-success mb-3">
-                            <img src="images/02-portfolio-1.jpg" class="card-img-top" alt="...">
+                            <img src="images/02-portfolio-1.jpg" class="card-img-top fixed-height" alt="A screenshot of a portfolio project" id="project-5">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              <h5 class="card-title">Project 5 (TBC)</h5>
+                              <p class="card-text">TBC</p>
+                              
                             </div>
                           </div>
                           
@@ -115,7 +124,41 @@
                   
                  
                   </div>
+                  
+            
+          </section>
 
+
+        
+          <section class="container">
+            
+            <div class="row d-flex justify-content-center">
+              
+            <div class="col-sm-6 col-md-6 col-lg-8">
+              <h2>Skills</h2>
+              <p>  HTML
+             <br>
+                CSS 
+                <br>
+                Javascript
+               <br>
+                Bootstrap
+               <br>
+                React
+               <br>
+                APIs
+          <br>
+                Node</p>
+          
+            </div>
+            
+              <div class="col-sm-6 col-md-6 col-lg-8">
+                <h2>About Me</h2>
+                <p>I am a UK-based Front-End Developer, developing projects both solo and in groups.
+                  <br>
+                  I have a background in economics and am interested in dev work for the fintech sector.
+                </p>
+              </div>
             </div>
           </section>
     
