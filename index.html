@@ -12,51 +12,29 @@
   </head>
   <body>
     <header class="container"><h1 class="d-flex justify-content-center">BOOTSTRAP PORTFOLIO</h1>
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
+        <nav class="row navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
             <a class="navbar-brand" href="#">Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#projects" role="button" data-toggle="dropdown" aria-expanded="false">
+            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto row">
+                <li class="nav-item col-sm-3 col-md-3 col-lg-3">
+                    <a class="nav-link" href="#projects" role="button" aria-expanded="false">
                       Projects
                     </a>
                   </li>
-                    <!-- Dropdown Menu 
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Flexbox Portfolio</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">SEO Page</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Study Guide</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Project 4 (TBC)</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Project 5 (TBC)</a>
-                    </div>
-                    -->
-                    <li class="nav-item">
+                    <li class="nav-item col-sm-3 col-md-3 col-lg-3">
                         <a class="nav-link" href="#skills">Skills</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
+                      <li class="nav-item col-sm-3 col-md-3 col-lg-3">
+                        <a class="nav-link" href="#about">About</a>
                       </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="#about" role="button" data-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item  col-sm-3 col-md-3 col-lg-3">
+                  <a class="nav-link" href="#contact" role="button" aria-expanded="false">
                     Contact
                   </a>
-                  <!-- Dropdown Menu
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Email</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Github</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">LinkedIn</a>
-                  </div>
-                -->
                 </li>
               </ul>
             </div>
@@ -75,7 +53,8 @@
                         <div class="card text-white bg-success mb-3">
                             <img src="images/Portfolio-page.png" class="card-img-top" alt="A screenshot of a portfolio project" id="portfolio-page">
                             <div class="card-body">
-                              <h5 class="card-title">Portfolio Page</h5>
+                              <a class="stretched-link" href="https://benedictcodeshere.github.io/Portfolio-Page/" target="_blank"></a>
+                              <h5 class="card-title">Flexbox Portfolio Page</h5>
                               <p class="card-text">HTML, CSS</p>
                               
                             </div>
@@ -85,6 +64,7 @@
                           <div class="card text-white bg-success mb-3">
                             <img src="images/seo-page.png" class="card-img-top fixed-height" alt="A screenshot of a portfolio project" id="seo-page">
                             <div class="card-body">
+                              <a class="stretched-link" href="https://benedictcodeshere.github.io/Refactoring-HTML-for-Accessibility/" target="_blank"></a>
                               <h5 class="card-title">SEO Page</h5>
                               <p class="card-text">HTML, CSS</p>
                               
@@ -95,6 +75,7 @@
                           <div class="card text-white bg-success mb-3">
                             <img src="images/study-guide.png" class="card-img-top fixed-height" alt="A screenshot of a portfolio project" id="study-guide">
                             <div class="card-body">
+                              <a class="stretched-link" href="https://benedictcodeshere.github.io/prework-study-guide/" target="_blank"></a> 
                               <h5 class="card-title">Study Guide</h5>
                               <p class="card-text">HTML, CSS, Javascript</p>
                               
@@ -162,13 +143,13 @@
               </div>
             </div>
           </section>
-    <footer class="container">
+    <footer class="container" id="contact">
       <div class="row d-flex justify-content-center" id="contact">
-        <h2 class="col-sm-12">Contact</h2>
-        <address>
-          <a class="col-sm-3 col-md-3 col-lg-3" href="mailto:codingwithbenedict99@gmail.com">Email</a>
-          <a class="col-sm-3 col-md-3 col-lg-3" href="https://github.com/BenedictCodesHere" target="_blank">Github</a>
-          <a class="col-sm-3 col-md-3 col-lg-3" href="https://www.linkedin.com/in/benedict-mcelroy-005256230">LinkedIn</a>
+        <h2 class="col-sm-12 col-md-12 col-lg-8">Contact</h2>
+        <address class="row d-flex justify-content-center">
+          <a class="col-sm-4 col-md-4 col-lg-4" href="mailto:codingwithbenedict99@gmail.com">Email</a>
+          <a class="col-sm-4 col-md-4 col-lg-4" href="https://github.com/BenedictCodesHere" target="_blank">Github</a>
+          <a class="col-sm-4 col-md-4 col-lg-4" href="https://www.linkedin.com/in/benedict-mcelroy-005256230">LinkedIn</a>
         </address>
       </div>
     </footer>

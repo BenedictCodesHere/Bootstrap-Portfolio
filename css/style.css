@@ -60,6 +60,8 @@ h1 {
 h1, .lead {
     -webkit-text-stroke: 1px red;
     font-size: 2em;
+    position: relative;
+    bottom: 20px;
   }
 
 h2 {
@@ -104,10 +106,9 @@ h2:before {
   }
 
   .card-title:hover {
-    font-size: 2em;
-    color:rgba(0, 174, 255, 0.966)
+    color:rgba(0, 174, 255, 0.966);
   }
-  
+
 
   #contact address a {
     color:rgba(36, 94, 43, 0.925);
@@ -115,7 +116,7 @@ h2:before {
     padding: 15px 60px;
     text-decoration: none;
     font-size: 2rem;
-    background-image: linear-gradient(270deg, rgb(21, 219, 21) 0%, blue 100%);
+    background-image: linear-gradient(270deg, rgb(21, 219, 21) 0%, rgb(84, 84, 216) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.6em;
     position: bottom;
@@ -131,4 +132,48 @@ h2:before {
     color: azure;
   }
 
+  @media screen and (max-width: 768px) {
+    #contact address a {
+      font-size: 1.2rem;
+      text-align: center;
+      background-size: 100%;
+      border-radius: none;
+     color: azure;
+    }
+    
+    #contact address a {
+      font-size: 1.2rem;
+      text-align: center;
+      background-size: 100%;
+      border-radius: none;
+     color: azure;
+    }
+
+    #contact address a:nth-child(even) {
+      background-image: linear-gradient(270deg, rgb(84, 84, 216) 0%, rgb(21, 219, 21) 100%);
+    }
+
+    nav {
+      display: flex;
+      width: 100vw;
+      justify-content: flex-start;
+    }
+    nav .container {
+      width: 100vw !important;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .navbar-nav {
+      display: flex;
+      flex-wrap: nowrap;
+      
+    }
+    .nav-link {
+      font-size: 1.2rem !important;
+      
+    }
+  }
+
+
+  
 
