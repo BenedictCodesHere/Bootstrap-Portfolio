@@ -11,22 +11,20 @@
     <title>Bootstrap Portfolio</title>
   </head>
   <body>
-    <header class="container-fluid"><h1 class="d-flex justify-content-center">BOOTSTRAP PORTFOLIO</h1>
-        <nav class="navbar navbar-expand-lg">
+    <header class="container"><h1 class="d-flex justify-content-center">BOOTSTRAP PORTFOLIO</h1>
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
             <a class="navbar-brand" href="#">Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+             
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#projects" role="button" data-toggle="dropdown" aria-expanded="false">
                       Projects
                     </a>
+                  </li>
                     <!-- Dropdown Menu 
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Flexbox Portfolio</a>
@@ -41,10 +39,13 @@
                     </div>
                     -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
                       </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link" href="#about" role="button" data-toggle="dropdown" aria-expanded="false">
                     Contact
                   </a>
                   <!-- Dropdown Menu
@@ -130,7 +131,7 @@
 
 
         
-          <section class="container">
+          <section class="container" id="skills">
             
             <div class="row d-flex justify-content-center">
               
@@ -152,7 +153,7 @@
           
             </div>
             
-              <div class="col-sm-6 col-md-6 col-lg-8">
+              <div class="col-sm-6 col-md-6 col-lg-8" id="about">
                 <h2>About Me</h2>
                 <p>I am a UK-based Front-End Developer, developing projects both solo and in groups.
                   <br>
@@ -161,7 +162,16 @@
               </div>
             </div>
           </section>
-    
+    <footer class="container">
+      <div class="row d-flex justify-content-center" id="contact">
+        <h2 class="col-sm-12">Contact</h2>
+        <address>
+          <a class="col-sm-3 col-md-3 col-lg-3" href="mailto:codingwithbenedict99@gmail.com">Email</a>
+          <a class="col-sm-3 col-md-3 col-lg-3" href="https://github.com/BenedictCodesHere" target="_blank">Github</a>
+          <a class="col-sm-3 col-md-3 col-lg-3" href="https://www.linkedin.com/in/benedict-mcelroy-005256230">LinkedIn</a>
+        </address>
+      </div>
+    </footer>
 
 
     <!-- Scripts under this line-->
