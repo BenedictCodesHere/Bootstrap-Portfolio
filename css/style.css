@@ -29,7 +29,7 @@ nav a {
     display: none;
 }
 .card-body {
-    background: linear-gradient(45deg, #23e609e3, #bdda1bc7, #1bcddac7 );
+    background: linear-gradient(45deg, #23e609e3, #bdda1bc7, #1bcddac7);
 }
 
 .display-4, .display-4 > p {
@@ -45,12 +45,11 @@ justify-content: center;
 }
 
 .jumbotron {
-    background-image: url("/images/avatar.png") !important;
+    background: url("../images/avatar.png");
     height: 400px !important;
     background-size: contain !important;
     background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(113, 179, 122, 0.8);
+    background-position: center !important;
 }
 
 h1 {
